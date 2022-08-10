@@ -1,0 +1,22 @@
+{
+    "name": "aiti/module-hello-world",
+    "description": "First Aiti HelloWorld module from Lukas",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "lukyz",
+            "email": "lukas.cesal@aiti.cz"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Aiti\\HelloWorld\\": ""
+        }
+    }
+}
